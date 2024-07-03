@@ -1,0 +1,18 @@
+{
+  "name": "jsonplaceholder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "vazirmatn": "^33.0.3"
+  }
+}

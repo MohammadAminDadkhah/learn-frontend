@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+  <template id="tmp_row">
+    <tr>
+      <td>ID</td>
+      <td>Name</td>
+      <td>Username</td>
+      <td>Website</td>
+    </tr>
+  </template>
+
+  <div class="container">
+      <div class="row mt-3">
+        <h2 class="text-center">User Task</h2>
+
+        <div id="table" class="mb-2 mt-4">
+
+          <table class="table table-hover">
+            <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Username</th>
+              <th>Website</th>
+            </tr>
+            </thead>
+
+            <tbody id="tbody">
+
+            </tbody>
+          </table>
+          <button class="btn btn-danger" id="delete-all">Delete all</button>
+        </div>
+
+        <hr>
+
+        <div class="mt-2 col-lg-3 col-md-6">
+          <div class="input-group">
+              <input class="form-control col-2" id="user-id-input" type="number" placeholder="Enter user id...">
+              <button class="col-4 btn-primary btn" id="user-id-btn">
+                <span>Search</span>
+              </button>
+            </div>
+        </div>
+
+        <div id="card" class="row mx-auto gap"></div>
+      </div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
